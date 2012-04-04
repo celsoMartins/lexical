@@ -22,7 +22,7 @@ public class WordComparator {
 	/**
 	 * Compare the two words given as parameter
 	 * Breaks the words into a char array e compares each one
-	 * if they differ, the method increments the wordTwo count if wordTwo is bigger than wordOne
+	 * if they differ, the method increments wordTwo count if wordTwo is bigger than wordOne
 	 * and vice versa. 
 	 * @return the total char match
 	 */

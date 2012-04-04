@@ -1,3 +1,3 @@
-This little application intend to do a lexical analysis on words, to be a base of a "do you want to say...?" application.
+The intention of this application is doing a lexical analysis on words, to act as a base for a "did you mean...?" application.
 
-The real purpose is to create a application to be a base of a SOLID principles blog serie.
+The real purpose of this application is to act as a base for the SOLID principles post series I'm writing on my blog: http://celsoavmartins.blogspot.com.br/

@@ -21,7 +21,7 @@ public class WordAnalyser {
 	}
 
 	public String[] analyse() throws IOException {
-		File file = new File("resource/words.txt");
+		File file = new File("resource/words.dat");
 		BufferedReader reader = new BufferedReader(new FileReader(file));
 		
 		String line = "";
