@@ -5,16 +5,16 @@ package br.com.celsomartins.lexical.analyser;
  * @author Celso Martins
  * @since 1.5
  */
-public class WordComparator {
+public class CharComparator {
 
 	private String wordOne;
 	private String wordTwo;
 
-	public static WordComparator getComparator(String wordOne, String wordTwo) {
-		return new WordComparator(wordOne, wordTwo);
+	public static CharComparator getComparator(String wordOne, String wordTwo) {
+		return new CharComparator(wordOne, wordTwo);
 	}
 
-	private WordComparator(String wordOne, String wordTwo) {
+	private CharComparator(String wordOne, String wordTwo) {
 		this.wordOne = wordOne;
 		this.wordTwo = wordTwo;
 	}

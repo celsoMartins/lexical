@@ -38,7 +38,7 @@ public class WordAnalyser {
 
 	private Boolean checkChars(String line) {
 		
-		WordComparator comparator = WordComparator.getComparator(word, line);
+		CharComparator comparator = CharComparator.getComparator(word, line);
 		Integer matchCount = comparator.compare();
 		
 		System.out.println(new DecimalFormat("#0.00").format(
